@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Churn Modelling</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='main.css')}}">
+    </head>
+    <body>
+        <h1>Churn modelling</h1>
+        <div id="frmdiv">
+         <form action="/" method="POST">
+            <label>Credit Score&nbsp;<input type="text" name="creditscore" id="cred" required></label><br>
+            <label>Geography&nbsp;<select name="geography" id="geo" required>
+              <option value="0">France</option>
+              <option value="1">Spain</option>
+              <option value="2">Germany</option> 
+            </select>
+            </label>
+            <br>
+            <label>Gender&nbsp;<select name="gender" id="gen" required>
+                <option value="0">Female</option>
+                <option value="1">Male</option> 
+              </select>
+              </label>
+              <br>
+            <label>Age&nbsp;<input type="text" name="age" required id="age"></label><br>
+            <label>Number of years with the bank&nbsp;<input type="text" name="tenure" required id="ten"></label><br>
+            <label>Available balance in the account&nbsp;<input type="text" name="balance" required id="bal"></label><br>
+            <label>Number of products availing from the bank&nbsp;<input type="text" name="nproducts" required id="numpro"></label><br>
+            <label>Having credit card?&nbsp;<select name="creditcard" required id="credcard">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select><br> 
+            <label>Is active member?&nbsp;<select name="member" id="member" required>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select><br>
+            <label>Estimated salary&nbsp;<input type="text" name="salary" id="sal" required></label><br>
+            <input type="submit" value="Predict" id="predict">   
+        </form><br>
+        {% if result %}
+        <p>{{result}}</p>
+        {% endif %}
+       </div>
+    </body>
+</html>

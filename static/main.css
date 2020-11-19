@@ -1,0 +1,130 @@
+h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p
+{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#frmdiv
+{
+    width:50%;
+    margin:auto;
+    margin-top:100px;
+}
+#cred
+{
+    margin-top:5px;
+    width:50%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#geo
+{
+    margin-top:5px;
+    margin-left:10px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#gen
+{
+    margin-top:5px;
+    margin-left:37px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#age
+{
+    margin-top:5px;
+    margin-left:63px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#ten
+{
+    margin-top:5px;
+    margin-left:10px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#bal
+{
+    margin-top:5px;
+    margin-left:2px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#numpro
+{
+    margin-top:5px;
+    margin-left:10px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#credcard
+{
+    margin-top:5px;
+    margin-left:10px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#member
+{
+    margin-top:5px;
+    margin-left:18px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#sal
+{
+    margin-top:5px;
+    margin-left:30px;
+    width:20%;
+    height:5%;
+    outline:none;
+    border: 1px black solid;
+    border-radius:2px;
+}
+#predict
+{
+    background:slategray;
+    border: 1px slategray solid;
+    margin-top:15px;
+    margin-left:60px;
+    width:40%;
+    border-radius:2px;
+    height:5%;
+}
+label
+{
+    font-size:1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
